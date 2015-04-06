@@ -23,7 +23,7 @@
     <h1>File Upload Page</h1>
 
     <form method="post" enctype="multipart/form-data" action="/upload">
-      <input type="file" name="uploaded-file" />
+      <input type="file" name="uploaded-file" onchange="submit()" />
 
       <input type="submit" />
     </form>
